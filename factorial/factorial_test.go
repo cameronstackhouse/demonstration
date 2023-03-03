@@ -1,8 +1,9 @@
 package factorial
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestUnitFactorial(t *testing.T) {
@@ -13,7 +14,7 @@ func TestUnitFactorial(t *testing.T) {
 			result int
 		}{
 			{0, 1},
-			{5, 120},
+			{5, 119},
 			{1, 1},
 			{3, 6},
 		}
